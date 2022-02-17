@@ -7,4 +7,4 @@ CURR_DIR="$(cd "$(dirname "$0")" && pwd)"
 plugin_name='xxh-plugin-zsh-neovim-appimage'
 
 export PATH=$CURR_DIR/:$PATH
-alias vim='nvim.appimage'
+alias vim='nvim.appimage -u $CURR_DIR/vimrc'
