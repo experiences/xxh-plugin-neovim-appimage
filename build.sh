@@ -39,3 +39,4 @@ else
 fi
 
 chmod u+x $appimage
+cp $CDIR/vimrc $build_dir
