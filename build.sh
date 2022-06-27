@@ -21,7 +21,7 @@ do
     cp $CDIR/$f $build_dir/
 done
 
-portable_url='https://github.com/neovim/neovim/releases/download/v0.6.1/nvim.appimage'
+portable_url='https://github.com/neovim/neovim/releases/download/v0.7.2/nvim.appimage'
 appimage=`basename $portable_url`
 
 cd $build_dir
